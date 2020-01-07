@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_login"
+        android:icon="@mipmap/account"
+        android:title="用户登录"
+        />
+    <item
+        android:id="@+id/nav_log"
+        android:icon="@drawable/logfile"
+        android:title="工作日志"
+        />
+    <item
+        android:id="@+id/nav_sticky"
+        android:icon="@drawable/note"
+        android:title="便利贴"
+        />
+    <item
+        android:id="@+id/nav_telephone"
+        android:icon="@drawable/telephone"
+        android:title="通讯录"
+        />
+    <item
+        android:id="@+id/nav_inform"
+        android:icon="@drawable/inform"
+        android:title="通知公告"
+        />
+</group>
+
+</menu>
